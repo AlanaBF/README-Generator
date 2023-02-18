@@ -1,5 +1,5 @@
 # README-Generator
-README Generator so that you can quickly create a professional README for a new project
+README Generator so that you can quickly create a professional README for a new project by answering question in the terminal running node index.js
 
 ## Description
 When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project.
@@ -9,15 +9,19 @@ You can quickly and easily create a README file by using a command-line applicat
 * As a developer, I want a README generator so that I can quickly create a professional README for a new project
 
 ## Installation
-In order to run this application, run the following in the command line and answer the questions:
+In order to run this application, run the following in the command line:
 
 ```bash
-node index.js
+npm install
 ```
 
 ## Usage
+Run the following in the command line
+```bash
+node index.js
+```
 * When a user is prompted for information about the application repository then a high-quality, professional README.md is generated with:
-    * The title of my project 
+    * The title of the project 
     * Sections entitled:
       * Description 
       * Table of Contents 
@@ -38,4 +42,4 @@ node index.js
 MIT
 
 ## Questions
-Any questions, reach me here on Github: @AlanaBF
+Any questions, find out more here on Github or by email: alanabarrett-frew@hotmail.com or raise an issue.

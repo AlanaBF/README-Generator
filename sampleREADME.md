@@ -1,54 +1,49 @@
  
-  
-  # Professional README Generator Example
+# Professional README Generator Example
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  ## Table of Contents
-  
-- [Description](##Description)
-- [Installation](##Installation)
-- [Usage](##Usage)
-- [License](##License)
-- [Contributing](##Contributing)
-- [Tests](##Tests)
-- [Questions](##Questions)
+## Table of Contents
 
-  ## Description 
-  *Describe the what, why, how of the project*
+* [Description](#Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [Questions](#Questions)
 
-  An app that generates a professional README using node.js and user input in the terminal
+## Description 
+An application that generates a professional README based on user responses in the terminal.
 
-  ## Installation 
-  *Steps required to install*
+## Installation 
+*To install the necessary dependencies run the following command*
 
-  run ``` node index.js ``` and then follow the instrcutions
+```npm install```
 
-  ## Usage 
-  *Instructions and examples for use*
+## Usage 
+*You can use this application by running*
 
-  Run the command in the terminal and then follow the instructions. It will prepare you a README based on your input.
+```node index.js```
 
-  ## Contributing   
-  *List your collaborators*
+## Contributing   
+*List of collaborators*
 
-  Refer to public guidelines for contributing
+Alana Barrett-Frew
 
-  ## Tests 
-  *Tests for application*
+## Tests 
+*To run tests, run the following command*
 
-  To run tests, run ``` npm test ```
+```npm test```
 
-  ## License 
-  *This project is licensed under the chosen license below*
+## License 
+*This project is licensed under* [MIT](https://choosealicense.com/licenses/mit/)
 
-  mit
+## Questions
+*Contact me if you have any questions or need to report a problem. Alternatively open an issue.*
 
-  ## Questions
-  *Contact me if you have any questions or need to report a problem*
-  
 
-  GitHub: @AlanaBF
-  
+Find me on GitHub: [AlanaBF](https://github.com/AlanaBF)
 
-  Email: alanabarrett-frew@hotmail.com
+
+Email: [alanabarrett-frew@hotmail.com](mailto:alanabarrett-frew@hotmail.com)

@@ -4,9 +4,7 @@ const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 const util = require('util');
 
-
 // array of questions for user
-
     inquirer.prompt([
         {
             type: 'input',
@@ -32,11 +30,11 @@ const util = require('util');
             type: 'checkbox',
             message: 'Choose your license',
             name: 'license',
-            choices: ["mit", "isc", "apachelicense2", "gnugplv2"],
+            choices: ["mit", "isc", "apachelicense2", "gnugplv3"],
         },
         {
             type: 'input',
-            message: 'Enter your contribution guidelines',
+            message: 'Who has contributed?',
             name: 'contributing',
         },
         {
@@ -47,7 +45,7 @@ const util = require('util');
         {
             type: 'input',
             message: 'Enter your GitHub Username',
-            name: 'github',
+            name: 'username',
         },
         {
             type: 'input',
@@ -56,7 +54,7 @@ const util = require('util');
         },
     ])
    
-
+// Prompts the user for their answers and then calls for the file to be written to the README based on those responses
     .then((data) => {
         fs.writeFile('sampleREADME.md', `${generateMarkdown(data)}`,
         (err) => (err ? console.error(err) : console.log('Successfully wrote to index.html'))
