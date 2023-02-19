@@ -76,7 +76,7 @@ ${data.installation}
 ${data.usage}
 
 ## Contributing   
-*List of collaborators*\n
+*If contributing fork and pull request. List of collaborators*\n
 ${data.contributing}
 
 ## Tests 

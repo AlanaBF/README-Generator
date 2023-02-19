@@ -14,27 +14,27 @@
 * [Questions](#Questions)
 
 ## Description 
-An application that generates a professional README based on user responses in the terminal.
+An application that generates a professional README based on user responses in the command line.
 
 ## Installation 
 *To install the necessary dependencies run the following command*
 
-```npm install```
+``` npm install ```
 
 ## Usage 
 *You can use this application by running*
 
-```node index.js```
+```node index.js ```
 
 ## Contributing   
-*List of collaborators*
+*If contributing fork and pull request. List of collaborators*
 
 Alana Barrett-Frew
 
 ## Tests 
 *To run tests, run the following command*
 
-```npm test```
+``` npm test ```
 
 ## License 
 *This project is licensed under* [MIT](https://choosealicense.com/licenses/mit/)

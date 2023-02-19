@@ -34,7 +34,7 @@ const util = require('util');
         },
         {
             type: 'input',
-            message: 'Who has contributed?',
+            message: 'Who has contributed and how can you contribute?',
             name: 'contributing',
         },
         {
@@ -57,6 +57,6 @@ const util = require('util');
 // Prompts the user for their answers and then calls for the file to be written to the README based on those responses
     .then((data) => {
         fs.writeFile('sampleREADME.md', `${generateMarkdown(data)}`,
-        (err) => (err ? console.error(err) : console.log('Successfully wrote to index.html'))
+        (err) => (err ? console.error(err) : console.log('Successfully wrote to sampleREADME.md'))
         )
     })
