@@ -33,7 +33,7 @@ Run the following in the command line
 node index.js
 ```
 
-![](https://watch.screencastify.com/v/E275OjM47gBcXoqIa31y)
+![Walk Through Video](./utils/Walk%20through%20of%20README%20Generator%20App.mp4)
 
 ![README Generator](./utils/Screenshot-README-Generator.png) 
 
